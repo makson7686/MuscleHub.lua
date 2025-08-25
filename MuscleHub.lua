@@ -2,8 +2,8 @@
 -- Скрипт запускается через loadstring (GitHub/Pastebin)
 
 -- 📦 Подключаем библиотеку GUI
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/zXYkLZKk"))()
-local Window = Library:CreateWindow("Muscle Legends Hub")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/makson7686/MuscleHub.lua/main/MuscleHub.lua"))()
+local Window = Library::CreateWindow("Muscle Legends Hub")
 
 ------------------------------------------------------------
 -- ❌ GodMode
