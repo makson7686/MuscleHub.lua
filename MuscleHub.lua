@@ -3,7 +3,7 @@
 
 -- 📦 Подключаем библиотеку GUI
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/makson7686/MuscleHub.lua/main/MuscleHub.lua", true))()
-local Window = local Window = Library:CreateWindow("Muscle Legends Hub")
+local Window = Library:CreateWindow("Muscle Legends Hub")
 
 ------------------------------------------------------------
 -- ❌ GodMode
