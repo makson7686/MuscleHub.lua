@@ -2,7 +2,7 @@
 -- Скрипт запускается через loadstring (GitHub/Pastebin)
 
 -- 📦 Подключаем библиотеку GUI
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/makson7686/MuscleHub.lua/main/MuscleHub.lua", true))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/zXYkLZKk"))()
 local Window = Library:CreateWindow("Muscle Legends Hub")
 
 ------------------------------------------------------------
@@ -79,7 +79,7 @@ spawn(function()
     while task.wait(1) do
         if Library.flags.autotrain then
             print("🏋️ Качаем силу!") 
-            -- пример: RemoteEvent для кача силы
+            -- Здесь должна быть функция для кача силы, если знаешь RemoteEvent
             -- game:GetService("ReplicatedStorage").RemoteEvent:FireServer("GainMuscle")
         end
     end
